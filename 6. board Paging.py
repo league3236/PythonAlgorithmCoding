@@ -4,9 +4,25 @@
 #입력 : 총건수(M) 한페이지에 보여줄 게시물 수
 #m=0 n=1 출력 0
 
-print("m의 값을 입력하세요 : ")
-m = input()
-print("n의 값을 입력하세요 : ")
-n = input()
+m = int(input("m의 값을 입력하세요 : "))
+n = int(input("n의 값을 입력하세요 : "))
 
-print(m/n)
+
+# m n 출력
+# 0 1 0
+# 1 1 1
+# 2 1 2
+# 1 10 1
+# 10 10 1
+# 11 10 2
+def returnPage(m,n):
+    if m == 0:
+        return 0
+    elif m<=n:
+        return 1
+    elif (m%n) == 0:
+        return m//n
+    else:
+        return m//n+1
+
+print(returnPage(m,n))
