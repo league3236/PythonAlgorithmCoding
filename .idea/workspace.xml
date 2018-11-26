@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52b56138-ab05-4540-a0dc-090300940185" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11. debug example1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12. estimate house slaes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13. 3times sum all.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14. memory Dynamic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7.Special Sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/7.Special Sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13. 3times sum all.py" beforeDir="false" afterPath="$PROJECT_DIR$/13. 3times sum all.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,24 +28,24 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="py" value="8350" />
-          <entry key="txt" value="68" />
+          <entry key="py" value="9563" />
+          <entry key="txt" value="118" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="84" />
-          <entry key="Python" value="8350" />
+          <entry key="PLAIN_TEXT" value="134" />
+          <entry key="Python" value="9563" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="17" />
+          <entry key="py" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="17" />
+          <entry key="Python" value="18" />
         </counts>
       </usages-collector>
     </session>
@@ -82,9 +79,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/13. 3times sum all.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/14. memory Dynamic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="614">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -127,20 +137,6 @@
               <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4. unittest test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <marker date="1542761538819" expanded="true" signature="39:50" ph="..." />
-                <marker date="1542761538819" expanded="true" signature="101:106" ph="..." />
-                <marker date="1542761538819" expanded="true" signature="126:135" ph="..." />
               </folding>
             </state>
           </provider>
@@ -199,6 +195,7 @@
         <option value="$PROJECT_DIR$/7.Special Sort.py" />
         <option value="$PROJECT_DIR$/12. estimate house slaes.py" />
         <option value="$PROJECT_DIR$/13. 3times sum all.py" />
+        <option value="$PROJECT_DIR$/14. memory Dynamic.py" />
       </list>
     </option>
   </component>
@@ -255,7 +252,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.7.Special Sort">
+  <component name="RunManager" selected="Python.14. memory Dynamic">
     <configuration name="11. debug example1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -277,7 +274,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1. Multiples of 3 and 5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="13. 3times sum all" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,7 +286,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1. Multiples of 3 and 5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13. 3times sum all.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -298,7 +295,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5. Orange Kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="14. memory Dynamic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,7 +307,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5. Orange Kmeans.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14. memory Dynamic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -362,19 +359,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1. Multiples of 3 and 5" />
-      <item itemvalue="Python.5. Orange Kmeans" />
       <item itemvalue="Python.6. board Paging" />
       <item itemvalue="Python.7.Special Sort" />
       <item itemvalue="Python.11. debug example1" />
+      <item itemvalue="Python.13. 3times sum all" />
+      <item itemvalue="Python.14. memory Dynamic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.14. memory Dynamic" />
+        <item itemvalue="Python.13. 3times sum all" />
         <item itemvalue="Python.7.Special Sort" />
         <item itemvalue="Python.11. debug example1" />
         <item itemvalue="Python.6. board Paging" />
-        <item itemvalue="Python.1. Multiples of 3 and 5" />
-        <item itemvalue="Python.5. Orange Kmeans" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542970714766</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="house sales estimate &amp; debug train">
+      <created>1543223101665</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1543223101665</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -447,6 +451,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2873" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989035" visible="true" weight="0.26495728" />
       <window_info id="Structure" order="1" sideWeight="0.501634" side_tool="true" weight="0.26495728" />
@@ -477,7 +482,8 @@
     <MESSAGE value="knnMovie" />
     <MESSAGE value="의사결정트리 알고리즘" />
     <MESSAGE value="kmeans study" />
-    <option name="LAST_COMMIT_MESSAGE" value="kmeans study" />
+    <MESSAGE value="house sales estimate &amp; debug train" />
+    <option name="LAST_COMMIT_MESSAGE" value="house sales estimate &amp; debug train" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -695,7 +701,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/13. 3times sum all.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14. memory Dynamic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
