@@ -9,8 +9,8 @@ from config import *
 def get_request_url(url):
 
     req = urllib.request.Request(url)
-    req.add_header("X-Naver-Client-Id","Ch0vdY0HM6SPOidkt02i") # naver app id 입력
-    req.add_header("X-Naver-Client-Secret","ANmaZHqA8m") # naver app secret 입력
+    req.add_header("X-Naver-Client-Id","") # naver app id 입력
+    req.add_header("X-Naver-Client-Secret","") # naver app secret 입력
     try:
         response = urllib.request.urlopen(req)
         if response.getcode() == 200:
