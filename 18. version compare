@@ -1,0 +1,42 @@
+# A씨는 두개의 버전을 비교하는 프로그램을 작성해야한다
+# 버전은 다음처럼 "."으로 구분된 문자열이다
+# 버전 예) 1.0.0 , 1.0.23, 1.1
+# 두개의 버전을 비교하는 프로그램을 작성하시오
+# 다음은 버전 비교의
+# 예이다:
+#
+# 0.0.2 > 0.0.1
+# 1.0.10 > 1.0.3
+# 0.2.0 > 1.1.99
+
+high_version = ['0.0.2', '1.0.10', '0.2.0']
+row_version = ['0.0.1','1.0.3','1.1.99']
+
+# high_version = input()
+# row_verison = input()
+
+
+high_version = '0.0.2'
+row_verison = '0.0.1'
+
+# print(high_version.__getitem__(1))
+
+# for i in range(high_version.__len__()):
+#     high_version1 = high_version.__getitem__(i)
+#     row_version1 = row_version.__getitem__(i)
+#
+#     for j in range(high_version1.__len__()):
+#         if high_version.__getitem__(j) > row_version.__getitem__(j):
+#             print("true")
+
+
+        # print(high_version.__getitem__(i).__getitem__(j))
+#     if high_version.__getitem__(0) > row_verison.__getitem__(0):
+#         print('true')
+
+# for i range(3):
+
+
+# split을 활용하면 훨씬 쉬움
+
+print(high_version.split('.')) #내일 마저 하기 .
