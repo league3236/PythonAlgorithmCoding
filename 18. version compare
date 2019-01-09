@@ -39,4 +39,29 @@ row_verison = '0.0.1'
 
 # split을 활용하면 훨씬 쉬움
 
-print(high_version.split('.')) #내일 마저 하기 .
+
+
+
+def version_cmp(left1, right1):
+    left2 = left1.split(".")
+    right2 = right1.split(".")
+    print(left2, right2)
+    length = min(len(left2),len(right1))
+    for i in range(length):
+        if left2[i] == right2[i]:
+            continue
+        elif left2[i] > right2[i]:
+            print(left1,">",right1)
+            return
+        else:
+            print(left1, "<", right1)
+            return
+    if len(left2) > len(right2):
+        print(left1, ">", right1)
+    elif len(left2) < len(right2):
+        print(left1, "<", right1)
+    else:
+        print(left1, "=", right1)
+    return
+
+version_cmp("0.2.0","0.0.1")
