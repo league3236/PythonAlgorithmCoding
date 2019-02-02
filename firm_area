@@ -1,0 +1,34 @@
+# 밥 아저씨는 돈을 힘들게 모은 끝에 한 토지를 구입했다.
+# 밥 아저씨는 그 토지에 유명한 식물을 심을려고 하는데,
+# 그 식물은 주변 n*n 미터 안에 다른 식물이 있으면 자라지 못한 다고 한다.
+# 그러므로 토지의 넓이를 n*n으로 나누어야 한다.
+# 토지의 가로와 세로의 길이를 입력받을때, 최대 심을 수 있는 식물의 개수는?
+# (단, n의 값은 식이 성립하는 n의 범위 중에서 최대여야 한다.)
+#
+# 예)
+# 640  400
+# 1980 640
+# 답)
+# 40
+# 3168
+# 단 반드시 그 나무를 중심으로 한 n * n 영역이 필요하다.
+#     그리고 그 영역이 다른 영역과 겹치면 안된다.
+
+# 공약수 구하기
+
+
+def max_common(a_num, b_num):
+    min_num = min(a_num, b_num)
+    list = []
+    for i in range (1, min_num+1):
+        if (a_num%i == 0 and b_num%i == 0):
+            list.append(i)
+    return max(list)
+
+def area_num(a_num, b_num):
+    ab_num = a_num*b_num
+    _max_common = max_common(a_num, b_num)*max_common(a_num, b_num)
+    return ab_num / _max_common
+
+print(int(area_num(640,400)))
+
