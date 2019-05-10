@@ -3,6 +3,8 @@ from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 import datetime
 import os
+import json
+import requests
 
 chrome_options = Options()
 
@@ -18,8 +20,8 @@ driver = webdriver.Chrome(executable_path='/home/slackchat/crawlexe/data/chromed
 
 driver.implicitly_wait(2)
 driver.get('http://ldccteam.lotte.net/SiteDirectory/BigData/Lists/Calendar/calendar.aspx')
-driver.find_element_by_id('UserID').send_keys('내id')
-driver.find_element_by_id('UserPass').send_keys('내 ')
+driver.find_element_by_id('UserID').send_keys('아이디')
+driver.find_element_by_id('UserPass').send_keys('비번')
 driver.find_element_by_xpath('//*[@id="login"]').click()
 
 driver.implicitly_wait(2)
@@ -43,8 +45,6 @@ now = datetime.datetime.now()
 
 
 title_list = ''
-pre_curl = 'curl -X POST --data-urlencode "payload={\"channel\": \"#jenkins\", \"username\": \"dailybot\", \"text\": \"'
-post_curl = '\", \"icon_emoji\": \":ghost:\"}" https://hooks.slack.com/services/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'
 
 for post_domain in href_list:
     web_url = pre_domain+post_domain
@@ -64,8 +64,24 @@ for post_domain in href_list:
     if now_time in start_time+end_time:
         title_list = title_list+title+'\n'
 
-curl = pre_curl+title_list+post_curl
-os.system(curl)
+webhook_url = "슬랙 웹훅 url"
+content = "지능정보기술팀의 활기찬 오늘의 일정이에요ㅎㅎ\n"+title_list+"오늘 하루도 좋은하루 되세요!!"
+payload = {
+"text": "지능정보기술팀의 활기찬 오늘의 일정이에요 ㅎㅎ",
+"attachments": [
+        {
+                "text":title_list ,
+                                                                        "color": "#3AA3E3",
+                                                                                    "attachment_type": "default",
+                                                                                            }
+                                           ]
+ }
+
+
+requests.post(
+    webhook_url, data=json.dumps(payload),
+     headers={'Content-Type': 'application/json'}
+)
 
 
 
