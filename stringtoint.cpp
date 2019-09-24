@@ -6,7 +6,7 @@ using namespace std;
 
 int solution(string s) {
     int answer = 0;
-    streamstring ss(s);
+    stringstream ss(s);
     ss >> answer;
     return answer;
 }
