@@ -13,7 +13,7 @@ def solution(bridge_length, weight, truck_weights):
     answer = 0
     bridge = [0]*bridge_length
     
-    while bridge:
+    while truck_weights:
         answer += 1
         bridge.pop(0)
         if truck_weights:
@@ -21,7 +21,7 @@ def solution(bridge_length, weight, truck_weights):
                 bridge.append(truck_weights.pop(0))
             else:
                 bridge.append(0)
-    return answer
+    return answer+bridge_length
 
 answer = solution(2,10,[7,4,5,6])
 print(answer)
