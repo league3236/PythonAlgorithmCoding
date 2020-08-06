@@ -4,9 +4,18 @@
 
 def solution(prices):
     answer = []
-    for i in prices:
-        # minute = 1
-        print(i)
+    for idx in range(len(prices)):
+        leng = 0
+        flag = 0
+        for jdx in range(idx+1, len(prices)):
+            leng = leng + 1
+            print(idx,prices[idx], jdx, prices[jdx:])
+            if prices[idx] > prices[jdx]:
+                answer.append(leng)
+                flag = 1
+                break
+        if flag == 0:
+            answer.append(leng)
     return answer
 
 
