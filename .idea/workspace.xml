@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="52b56138-ab05-4540-a0dc-090300940185" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/201024-01.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mock_exam.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+=======
+    <list default="true" id="52b56138-ab05-4540-a0dc-090300940185" name="Default Changelist" comment="백준 1157 단어" />
+>>>>>>> 58cd34fa1f6aaf281bbd0e92e2b9bd5efdabb5bb
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +22,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2675.py">
+        <entry file="file://$PROJECT_DIR$/5622.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2941.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="380">
               <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
             </state>
@@ -31,11 +45,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="479">
               <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+=======
+            <state relative-caret-position="525">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+>>>>>>> 58cd34fa1f6aaf281bbd0e92e2b9bd5efdabb5bb
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/201024-01.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
@@ -49,6 +68,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
               <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+=======
+        <entry file="file://$PROJECT_DIR$/sumtos.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="62" lean-forward="true" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+>>>>>>> 58cd34fa1f6aaf281bbd0e92e2b9bd5efdabb5bb
             </state>
           </provider>
         </entry>
@@ -95,6 +120,7 @@
         <option value="$PROJECT_DIR$/venv/2675.py" />
         <option value="$PROJECT_DIR$/2675.py" />
         <option value="$PROJECT_DIR$/1157.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/mock_exam.py" />
         <option value="$PROJECT_DIR$/201024-01.py" />
       </list>
@@ -104,6 +130,21 @@
     <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
+=======
+        <option value="$PROJECT_DIR$/1152.py" />
+        <option value="$PROJECT_DIR$/2908.py" />
+        <option value="$PROJECT_DIR$/5622.py" />
+        <option value="$PROJECT_DIR$/2941.py" />
+        <option value="$PROJECT_DIR$/testpip.py" />
+        <option value="$PROJECT_DIR$/sumtos.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="722" />
+>>>>>>> 58cd34fa1f6aaf281bbd0e92e2b9bd5efdabb5bb
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -154,8 +195,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1157">
-    <configuration name="1157" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.sumtos">
+    <configuration name="2908" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,7 +208,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1157.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2908.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,7 +217,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="13. 3times sum all" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2941" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,7 +229,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13. 3times sum all.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2941.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,7 +238,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="14. memory Dynamic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5622" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -209,7 +250,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14. memory Dynamic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5622.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,28 +259,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2675" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/2675.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="2675" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sumtos" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -251,7 +271,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2675.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sumtos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,7 +280,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7.Special Sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testpip" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,7 +292,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7.Special Sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testpip.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,19 +302,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.7.Special Sort" />
-      <item itemvalue="Python.13. 3times sum all" />
-      <item itemvalue="Python.14. memory Dynamic" />
-      <item itemvalue="Python.2675" />
-      <item itemvalue="Python.1157" />
+      <item itemvalue="Python.2908" />
+      <item itemvalue="Python.5622" />
+      <item itemvalue="Python.2941" />
+      <item itemvalue="Python.testpip" />
+      <item itemvalue="Python.sumtos" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1157" />
-        <item itemvalue="Python.2675" />
-        <item itemvalue="Python.2675" />
-        <item itemvalue="Python.14. memory Dynamic" />
-        <item itemvalue="Python.13. 3times sum all" />
+        <item itemvalue="Python.sumtos" />
+        <item itemvalue="Python.testpip" />
+        <item itemvalue="Python.2941" />
+        <item itemvalue="Python.5622" />
+        <item itemvalue="Python.2908" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +385,35 @@
       <option name="project" value="LOCAL" />
       <updated>1543228920980</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="백준 1157 단어">
+      <created>1578751848987</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578751848988</updated>
+    </task>
+    <task id="LOCAL-00010" summary="백준 1157 단어">
+      <created>1578812415132</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578812415132</updated>
+    </task>
+    <task id="LOCAL-00011" summary="백주 2908 상수">
+      <created>1578813299789</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578813299789</updated>
+    </task>
+    <task id="LOCAL-00012" summary="백준 5622 다이얼">
+      <created>1578910001987</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578910001987</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -389,21 +437,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
+=======
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+>>>>>>> 58cd34fa1f6aaf281bbd0e92e2b9bd5efdabb5bb
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989035" visible="true" weight="0.3383948" />
       <window_info id="Structure" order="1" sideWeight="0.501634" side_tool="true" weight="0.26495728" />
       <window_info id="Favorites" order="2" sideWeight="0.5010965" side_tool="true" weight="0.2638298" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.22698413" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.22876713" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47089264" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289183" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.33554083" />
       <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.17108168" />
+=======
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.16986302" />
+>>>>>>> 58cd34fa1f6aaf281bbd0e92e2b9bd5efdabb5bb
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.267101" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289183" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32857144" />
@@ -421,7 +479,10 @@
     <MESSAGE value="kmeans study" />
     <MESSAGE value="house sales estimate &amp; debug train" />
     <MESSAGE value="Dynamic Memory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dynamic Memory" />
+    <MESSAGE value="백준 1157 단어" />
+    <MESSAGE value="백주 2908 상수" />
+    <MESSAGE value="백준 5622 다이얼" />
+    <option name="LAST_COMMIT_MESSAGE" value="백준 5622 다이얼" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -657,13 +718,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2675.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="380">
           <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+=======
+        <state relative-caret-position="165">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+>>>>>>> 58cd34fa1f6aaf281bbd0e92e2b9bd5efdabb5bb
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2605.cpp">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="380">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
@@ -683,6 +750,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+=======
+        <state relative-caret-position="210">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1152.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2908.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5622.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testpip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2941.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sumtos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="62" lean-forward="true" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+>>>>>>> 58cd34fa1f6aaf281bbd0e92e2b9bd5efdabb5bb
         </state>
       </provider>
     </entry>
