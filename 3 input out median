@@ -1,7 +1,0 @@
-
-import statistics
-def medium_out(a, b, c):
-    list = [a,b,c]
-    return statistics.median(list)
-
-print(medium_out(1,7,3))

@@ -1,4 +1,0 @@
-#! python
-
-
-print('Hello world!')
