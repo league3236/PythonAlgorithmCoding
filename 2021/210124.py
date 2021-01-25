@@ -49,19 +49,26 @@ print(f'result = {result}')
 
 # Function with comments
 
-def func(arg1, arg2, arg3):
-    ```
-    :param arg1: str
-    :param arg2: str
-    :param arg3: list
-    :retgurn: bool
-    ```
+# def func(arg1, arg2, arg3):
+#     ```
+#     :param arg1: str
+#     :param arg2: str
+#     :param arg3: list
+#     :retgurn: bool
+#     ```
 
 # https://leetcode.com/problems/two-sum/
+from typing import List
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        
+        for i in range(len(nums)-1):
+            for j in range(i+1, len(nums)):
+                temp = nums[i] + nums[j]
+                if temp == target:
+                    return [i, j]
+        return -1
+
 sol1 = Solution()
 
 result = sol1.twoSum([2,7,11,15], 9)
